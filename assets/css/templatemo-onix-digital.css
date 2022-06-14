@@ -1992,6 +1992,13 @@ responsive
   }
 }
 
+@media (max-width: 400px) {
+.pricing-tables .item img {
+  border-radius: 50%;
+  max-width: 100%;  
+height: auto;     
+}
+}
 @media (max-width: 767px) {
   .main-banner .item .down-buttons {
     display: inline-block;
