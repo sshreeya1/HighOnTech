@@ -1999,6 +1999,12 @@ responsive
 height: auto;     
 }
 }
+
+@media (max-width: 760px) {
+  .call-button {
+    margin-top: 12px;     
+  }
+  }
 @media (max-width: 767px) {
   .main-banner .item .down-buttons {
     display: inline-block;
