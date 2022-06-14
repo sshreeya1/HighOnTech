@@ -1351,6 +1351,8 @@ Pricing
 .pricing-tables .item img {
   border-radius: 50%;
   width: 300px;
+  max-width: 100%;  
+height: auto;  
 }
 
 .pricing-tables .item em {
