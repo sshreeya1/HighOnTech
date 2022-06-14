@@ -2036,5 +2036,7 @@ height: auto;
   }
   .contact-us .info span {
     margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left;
   }
 }
