@@ -1316,12 +1316,31 @@ Pricing
   margin-top: 0px;
 }
 
+.pricing-tables-career {
+  z-index: 2;
+  position: relative;
+  padding-top: 120px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 .pricing-tables .section-heading {
   text-align: center;
   margin-bottom: 60px;
 }
 
 .pricing-tables .section-heading h2 {
+  text-align: center;
+  margin: 0px 60px 0px 60px;
+  margin-bottom: -5px;
+  position: relative;
+  z-index: 1;
+}
+.pricing-tables-career .section-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-tables-career .section-heading h2 {
   text-align: center;
   margin: 0px 60px 0px 60px;
   margin-bottom: -5px;
@@ -1397,6 +1416,74 @@ height: auto;
 .pricing-tables .third-item {
   background-image: url(../images/third-plan-bg.png);
 }
+
+.pricing-tables-career .tables-left-dec img {
+  width: 418px;
+  height: 851px;
+  left: 0;
+  top: 120px;
+  position: absolute;
+  z-index: 1;
+}
+
+.pricing-tables-career .tables-right-dec img {
+  width: 359px;
+  height: 848px;
+  right: 0;
+  top: 45px;
+  position: absolute;
+  z-index: 1
+}
+.pricing-tables-career .boxs {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+  text-align: center;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.pricing-tables-career .boxs h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-top: 13px;
+}
+
+.pricing-tables-career .boxs em {
+  color: #c49d40;
+  font-size: 10px;
+  display: block;
+  margin-top: 25px;
+  text-decoration: line-through;
+  font-style: normal;
+}
+
+.pricing-tables-career .boxs span {
+  font-size: 15px;
+  color: #c49d40;
+  font-weight: 700;
+  display: block;
+  margin-top: 10px;
+}
+
+
+
+.pricing-tables-career .boxs  p{
+  display: block;
+  font-size: 12px;
+  color: #7a7a7a;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.pricing-tables-career .boxs .main-blue-button {
+  margin-top: 40px;
+}
+
+
 
 
 /* 
@@ -1796,7 +1883,7 @@ Footer Style
 }
 
 footer {
-  margin-top: -50px;
+  margin-top: -10px;
   z-index: 2;
   position: relative;
 }
