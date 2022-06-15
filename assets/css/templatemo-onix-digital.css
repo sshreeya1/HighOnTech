@@ -1091,6 +1091,7 @@ About
 .about-us .fact-item .icon {
   width: 45px;
   height: 45px;
+  color:#e8bc55
 }
 
 .about-us .fact-item {
@@ -2133,3 +2134,9 @@ height: auto;
     text-align: left;
   }
 }
+
+.color-icon {
+  font-size:50px;
+  color:#14A2D6;
+}
+
