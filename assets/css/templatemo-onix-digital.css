@@ -411,6 +411,7 @@ header
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #f03b3b!important;
+  background-color: #fafafa!important;
 }
 
 .background-header .main-nav .nav li:hover a,
