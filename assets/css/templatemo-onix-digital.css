@@ -863,9 +863,10 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding:236px 0px 130px 0px;
+  padding:220px 0px 127px 0px;
   position: relative;
   overflow: hidden;
+  margin-bottom: -150px;
 }
 
 .main-banner:after {
@@ -1002,7 +1003,7 @@ Services Style
 
 .our-services {
   position: relative;
-  margin-top: 0px;
+  margin-top: 90px;
   padding-top: 100px;
 }
 
