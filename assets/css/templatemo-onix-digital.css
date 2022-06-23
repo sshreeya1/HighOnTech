@@ -250,6 +250,20 @@ body {
   margin-top: 30px;
 }
 
+.main-blue-button-hover-job a {
+  display: inline-block;
+  background-color: #f03b3b;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  transition: all .3s;
+  margin-top: 15px;
+}
+
 
 .main-red-button a {
   display: inline-block;
@@ -906,6 +920,48 @@ Banner Style
   height: 674px;
 }
 
+.img-banner{
+  background-color: black;
+  background-image: url(../images/sd.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding:220px 0px 300px 0px;
+  overflow: hidden;
+  display: flex;
+}
+
+.img-banner .banner-layout{
+  position: relative; 
+    height: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+
+.img-banner .banner-layout::before {    
+  content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.img-banner .banner-layout h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: #ffffff;
+  padding:40px;
+  font-size: 70px;
+}
+
+
 .main-banner .item {
   margin-right: 45px;
 }
@@ -1499,8 +1555,48 @@ height: auto;
   margin-top: 40px;
 }
 
+.job-items{
+  z-index: 2;
+  position: relative;
+  padding-top: 120px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.job-items h4 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-top: 13px;
+}
 
 
+
+.job-items span {
+  font-size: 25px;
+  color: #f03b3b;
+  font-weight: 700;
+  display: block;
+  margin-top: 10px;
+}
+
+.job-items ul li{
+  list-style: disc;
+  margin-left: 25px;
+  color:#14A2D6
+}
+.job-items p{
+  display: block;
+  font-size: 23px;
+  color: #7a7a7a;
+  margin-bottom: 10px;
+  margin-top: 23px;
+}
+
+
+.job-items .main-blue-button {
+  margin-top: 40px;
+}
 
 /* 
 ---------------------------------------------
@@ -2099,7 +2195,49 @@ responsive
 .pricing-tables .item img {
   border-radius: 50%;
   max-width: 100%;  
-height: auto;     
+  height: auto;     
+}
+}
+
+@media (max-width: 600px) {
+  .img-banner{
+    width: 100%;
+    height: auto;
+  }
+.job-items{
+  z-index: 2;
+  position: relative;
+  padding-top: 120px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.job-items h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-top: 13px;
+}
+
+.job-items span {
+  font-size: 15px;
+  color: #f03b3b;
+  font-weight: 700;
+  display: block;
+  margin-top: 10px;
+}
+
+.job-items ul li{
+  list-style: disc;
+  margin-left: 25px;
+  color:#14A2D6
+}
+.job-items p{
+  display: block;
+  font-size: 13px;
+  color: #7a7a7a;
+  margin-bottom: 10px;
+  margin-top: 23px;
 }
 }
 
