@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/images/logo1.png" type="image/x-icon">
+  <title>High On Tech - Teams </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/highontech.png">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" class="active">Team</a></li>
+              <li class="scroll-to-section"><a href="career.html">Careers</a></li>
+
+              <li class="scroll-to-section">
+                <div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div class="img--m">
+    <div class="banner-layout">
+      <h1>Technical Writer
+      </h1>
+    </div>
+  </div>
+  <div id="pricing" class="job-items">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Technical Writer</h4>
+          <span>No. of vacancies: 2</span>
+          <p><b>Pay Rate</b>: </p>
+          <p><b>No of years of experience</b>:</p>
+          <p><b>Job Type</b>: Full-time, Part-time</p>
+          <p>A technical writer is a professional information communicator whose task is to transfer information between two or more parties, 
+            through any medium that best facilitates the transfer and comprehension of the information.</p>
+          <p>The Technical Writer is responsible for generating innovative ideas for content while working both independently and collaboratively as part of a team. The position researches products, services,
+             technology or concepts to be documented and easily understood by a broad audience.</p>
+            <p><b>Responsibilities</b>: <br>
+              <ul>
+                <li><p>Determine the clearest and most logical way to present information for greatest reader comprehension.</p></li>
+                <li><p>Generate innovative ideas for content and workflow solutions</p></li>
+                <li><p>Analyzing information to recommend and plan the installation of new systems or modifications of an existing system.</p></li>
+                <li><p>Directing software programming and documentation development.</p></li>
+                <li><p>Consulting with engineering staff to evaluate software hardware interfaces and develop specifications and performance requirements.</p></li>
+                <li><p>Meet with subject-matter experts to ensure specialized topics are appropriately addressed..</p></li>
+                <li><p>Review and/or copyedit content developed by other members of the team.</p></li>
+                
+              </ul>
+            </p>
+            <p><b>Requirements</b>: <br>
+              <ul>
+                <li><p>Bachelor's degree in computer science or related degree.</p></li>
+                <li><p>Fluency in technical and common office software.</p></li>
+                <li><p>The desire to work in a fast-paced environment.</p></li>
+                <li><p>Written and oral communication skills.</p></li>
+                <li><p>Willingness to take on new challenges and build on current skills.</p></li>
+                <li><p>Exceptional analytical and conceptual thinking skills.</p></li>
+                <li><p>Ability to check all technical material for consistency and accuracy.</p></li>
+                
+              </ul>
+            </p>
+            <div class="main-blue-button-hover-job">
+            <a href="technicalWriter.html">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+      // Acc
+      $(document).on("click", ".naccs .menu div", function () {
+        var numberIndex = $(this).index();
+
+        if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+      });
+    </script>
+</body>
+
+</html>
