@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/images/logo1.png" type="image/x-icon">
+  <title>High On Tech - Teams</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/highontech.png">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" class="active">Team</a></li>
+              <li class="scroll-to-section"><a href="career.html">Careers</a></li>
+
+              <li class="scroll-to-section">
+                <div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div class="img--m">
+    <div class="banner-layout">
+      <h1>Software Developer
+      </h1>
+    </div>
+  </div>
+  <div id="pricing" class="job-items">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Account Manager </h4>
+          <span>No. of vacancies: 2</span>
+          <p><b>Pay Rate</b>: </p>
+          <p><b>No of years of experience</b>:</p>
+          <p><b>Job Type</b>: Full-time, Part-time</p>
+          <p>Account managers act as client advocates and work with internal departments to ensure that client needs are understood and satisfied. They may assist with making sales, handling client complaints,
+             collecting and analyzing data, and improving the overall customer experience..</p>
+          <p>Software developers are the creative, brainstorming masterminds behind computer programs of all sorts.
+             While some software developers may focus on a specific program or app, others create giant networks or
+              underlying systems that help trigger and power other programs. This is why there are 
+            two main classifications of developers: applications software developers and systems software developers.</p>
+            <p><b>Responsibilities</b>: <br>
+              <ul>
+                <li><p>Communicating with clients to understand their needs and explain product value.</p></li>
+                <li><p>Building relationships with clients based on trust and respect.</p></li>
+                <li><p>Collaborating with internal departments to facilitate client need fulfillment.</p></li>
+                <li><p>Collecting and analyzing data to learn more about consumer behavior.</p></li>
+                <li><p>Keeping accurate records pertaining to inventory and account notes.                  .</p></li>
+                <li><p>Maintaining updated knowledge of company products and services.</p></li>
+                <li><p>Resolving complaints and preventing additional issues by improving processes.</p></li>
+                
+              </ul>
+            </p>
+            <p><b>Requirements</b>: <br>
+              <ul>
+                <li><p>Bachelor's degree in computer science or related degree.</p></li>
+                <li><p>More education or experience may be preferred.</p></li>
+                <li><p>Exceptional verbal and written communication skills.</p></li>
+                <li><p>Ability to collect, track, and analyze large amounts of data..</p></li>
+                <li><p>Adaptability and strong problem-solving skills.</p></li>
+                <li><p>Excellent active listening skills.</p></li>
+                <li><p>Understanding of consumer behaviors and industry trends.</p></li>
+                <li><p>Extensive, accurate product knowledge.</p></li>
+                
+              </ul>
+            </p>
+            <div class="main-blue-button-hover-job">
+            <a href="account-manager.html">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+      // Acc
+      $(document).on("click", ".naccs .menu div", function () {
+        var numberIndex = $(this).index();
+
+        if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+      });
+    </script>
+</body>
+
+</html>

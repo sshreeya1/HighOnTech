@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/images/logo1.png" type="image/x-icon">
+  <title>High On Tech - Teams </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/highontech.png">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" class="active">Team</a></li>
+              <li class="scroll-to-section"><a href="career.html">Careers</a></li>
+
+              <li class="scroll-to-section">
+                <div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div class="img--m">
+    <div class="banner-layout">
+      <h1>UI-UX Designer
+      </h1>
+    </div>
+  </div>
+  <div id="pricing" class="job-items">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>UI-UX Designer </h4>
+          <span>No. of vacancies: 2</span>
+          <p><b>Pay Rate</b>: </p>
+          <p><b>No of years of experience</b>:</p>
+          <p><b>Job Type</b>: Full-time, Part-time</p>
+          <p>UI UX designers create the user interface for an app, website, or other interactive media. 
+            Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. 
+            They also process flows or sitemaps.</p>
+          <p>UX-UI Designers are generally responsible for collecting, researching, investigating and evaluating user requirements. Their responsibility is to deliver an outstanding user experience providing an exceptional and intuitive application design.</p>
+            <p><b>Responsibilities</b>: <br>
+              <ul>
+                <li><p>Creating user-centered designs by understanding business requirements, and user feedback.</p></li>
+                <li><p>Creating user flows, wireframes, prototypes and mockups.</p></li>
+                <li><p>Translating requirements into style guides, design systems, design patterns and attractive user interfaces.</p></li>
+                <li><p>Designing UI elements such as input controls, navigational components and informational components.</p></li>
+                <li><p>Creating original graphic designs (e.g. images, sketches and tables).</p></li>
+                <li><p>Collaborating effectively with product, engineering, and management teams.</p></li>
+                <li><p>Incorporating customer feedback, usage metrics, and usability findings into design in order to enhance user experience.</p></li>
+                
+              </ul>
+            </p>
+            <p><b>Requirements</b>: <br>
+              <ul>
+                <li><p>Bachelor's degree in computer science or related degree.</p></li>
+                <li><p> 2-5 years of experience as an UI-UX Designer or similar role.</p></li>
+                <li><p>Excellent interpersonal and communication skills.</p></li>
+                <li><p>Ability to discuss and explain design options.</p></li>
+                <li><p>Knowledge of Adobe range of products including Photoshop, Illustrator, InDesign, Acrobat and Dreamweaver.</p></li>
+                <li><p>Must be a full-stack developer and understand concepts of software engineering.</p></li>
+                <li><p>3-5 years of experience with HTML5 & CSS3.</p></li>
+                <li><p>Detail oriented.</p></li>
+                
+              </ul>
+            </p>
+            <div class="main-blue-button-hover-job">
+            <a href="ui-ux-designer.html">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+      // Acc
+      $(document).on("click", ".naccs .menu div", function () {
+        var numberIndex = $(this).index();
+
+        if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+      });
+    </script>
+</body>
+
+</html>
