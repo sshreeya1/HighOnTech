@@ -429,6 +429,7 @@
     <script>
     function sendEmail() {
       var name = document.getElementById("name").value;
+      var surname=   document.getElementById("surname ").value;
       var website=   document.getElementById("website").value;
       var email= document.getElementById("emailsend").value;
       Email.send({
@@ -436,7 +437,7 @@
         To : 'drive.shreeya@gmail.com',
         From : "drive.shreeya@gmail.com",
         Subject : "New Message from "+ name,
-        Body : "<html> The viewer :  <h2> " + name +" </h2><strong> "+  + "</strong><br></br><em>Italic</em></html>"
+        Body : "<html> <h2>Hi HighOnTech Admin : </h2>  " + name +" "+surname + " is interested in the service. Please get back to the person. The persons email address is: <strong> "+ email  + "</strong><br></br><em>HIGHONTECH</em></html>"
         }).then(
             message => alert("Message is delievered to High on Tech Admin")
         );
