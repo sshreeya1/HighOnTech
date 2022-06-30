@@ -1087,6 +1087,11 @@ Services Style
   margin-bottom: -10px;
 }
 
+.our-services .section-heading p {
+  margin: 30px 60px;
+  margin-bottom: -10px;
+}
+
 .our-services .item {
   text-align: center;
   margin: 15px;
@@ -2293,3 +2298,6 @@ responsive
   color:#f03b3b;
 }
 
+.item p{
+  margin-top: 100px;
+}
