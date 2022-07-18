@@ -1502,7 +1502,13 @@ height: auto;
   position: absolute;
   z-index: 1;
 }
-
+.partners-css{
+  width: 200px;
+  height: auto; 
+  margin: auto;
+  display: block;
+  text-align:center;
+}
 .pricing-tables-career .tables-right-dec img {
   width: 359px;
   height: 848px;
